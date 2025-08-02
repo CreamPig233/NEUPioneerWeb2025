@@ -190,7 +190,7 @@ input {
   z-index: 9999;
   position: fixed;
   overflow: visible;
-  background: #fff url('../Image/preloder.gif') no-repeat center center;
+  background: #fff url('/image/preloder.gif') no-repeat center center;
   animation: loader 5s infinite ease;
 }
 
@@ -816,7 +816,7 @@ section{
         Counter Section
 ====================================*/
 #counter-section{
-  background-image:url(../Image/page_breadcam.png);
+  background-image:url('/image/page_breadcam.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1425,7 +1425,7 @@ footer .scrollToTop i {
   height: 300px;
   position: relative;
   z-index: 1;
-  background: url(../Image/Untitled-10.png) no-repeat;
+  background: url('/image/Untitled-10.png') no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #fff;
@@ -2518,7 +2518,7 @@ div[data-toggle="collapse"]{
 }
 
 .register_section {
-    background-image: url(../Image/re_banner3.png);
+    background-image: url('/image/re_banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;

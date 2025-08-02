@@ -1,0 +1,24 @@
+/* 只限制高度（宽度自动适应） */
+.navbar-brand img {
+  height: 40px;  /* 固定高度 */
+  width: auto;    /* 宽度自适应 */
+  max-width: 100%; /* 防止溢出容器 */
+}
+
+.footer-logo img {
+  height: 40px;  /* 固定高度 */
+  width: auto;    /* 宽度自适应 */
+  max-width: 100%; /* 防止溢出容器 */
+}
+
+.empty-line {
+                padding-bottom: 100px; /* 设置下方内边距为10像素 */
+            }
+
+
+.empty-line-30px {
+    padding-bottom: 30px; /* 设置下方内边距为30像素 */
+}
+
+
+
