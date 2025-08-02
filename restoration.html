@@ -66,6 +66,27 @@
             width: auto;    
             max-width: 100%; 
         }
+
+        .manual-link {
+            display: inline-block;
+            background: linear-gradient(to right, #609d93, #5abaab);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+        }
+        
+        .manual-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(108, 216, 230, 0.4);
+            background: linear-gradient(to right, #458176, #286a60);
+        }
+
+        
     </style>
 </head>
 <body>
@@ -151,8 +172,11 @@
     <div class="qrcode-container">
         <div class="qrcode-card wow fadeInUp" data-wow-duration="1s">
             <h3>欢迎加入 2025先锋复原企划 QQ群<br></h3>
-            <img src="/restoration_qqgroup.jpg" style="width: auto; height: 500px;">
-        
+            <img src="/restoration_qqgroup.png" style="width: auto; height: auto; max-width: 100%; max-height: 607px;" alt="2025先锋复原企划 QQ群二维码">
+            <p class="mt-4"></p>
+            <a href="https://qm.qq.com/q/EFU4v5bV5e" class="manual-link">
+                或点击这里加入群聊
+            </a>
         </div>
     </div>
 
