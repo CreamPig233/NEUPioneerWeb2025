@@ -1,9 +1,24 @@
 {
     "redirects": [
         {
-            "source": "/mengxin/2025/index.html",
-            "destination": "/wiki/recruit2025/index.html",
+            "source": "/aboutus/index.html",
+            "destination": "/workinprogress.html",
             "permanent": false
+        },
+        {
+            "source": "/pcsetup/index.html",
+            "destination": "/pcsetup/driver.html",
+            "permanent": true
+        },
+        {
+            "source": "/mengxin/index.html",
+            "destination": "/mengxin/2025/index.html",
+            "permanent": true
+        },
+        {
+            "source": "/links/index.html",
+            "destination": "/links/pioneers.html",
+            "permanent": true
         }
     ]
 }
