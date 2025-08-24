@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="generator" content="Hexo 7.3.0" />
+  <meta name="hexo-theme" content="https://github.com/chiyuki0325/hexo-theme-stellaris/tree/2.3.5" />
+  <meta http-equiv="X-DNS-Prefetch-Control" content="on" />
+  <link rel="dns-prefetch" href="https://fastly.jsdelivr.net" />
+  <link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin="true" />
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" media="(prefers-color-scheme: light) and (max-width: 667px)" content="#eff4f9" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f8f8f8" />
+  <meta name="darkreader-lock" />
+  <title>2025 先锋面前题：网络基础知识 - NEUP 2025</title>
+  <meta property="article:modified_time" content="2025-08-21T08:51:22.945Z" />
+  <meta property="article:author" content="NEUP 2025" />
+  <meta name="description" content="面前题主要为后面的面试做准备，以引导为主，考查大家的学习能力。不用担心什么都看不懂，做不来，学习本身才是最重要的。" />
+  <link rel="stylesheet" href="/mengxin/2025/css/main.css" />
+</head>
+
+<body>
+  <div class="l_body" id="start">
+    <aside class="l_left" layout="wiki">
+      <div class="widgets">
+        <widget class="widget-wrapper logo-wrap wiki">
+          <div class="widget-body"><a style="filter:grayscale(100%)" class="wiki-home cap" href="javascript:void(0);" onclick="location.href='/';"><svg
+                aria-hidden="true" viewBox="0 0 16 16" width="1rem" height="1rem" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z">
+                </path>
+              </svg>回到主页</a><a class="title" href="/mengxin/2025/">
+              <div class="main" ff="title">2025 先锋面前题</div>
+            </a></div>
+        </widget>
+        <div class="widget-wrapper toc multi" id="toc">
+          <div class="widget-header cap dis-select"><span class="name">ℹ️ 前言</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/#start"><span
+                  class="toc-text">前言</span></a></div>
+          </div>
+          <div class="widget-header cap dis-select"><span class="name">🌐 网络部</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree active"><a class="doc-tree-link active" href="/mengxin/2025/network/net/"><span
+                  class="toc-text">网络基础知识</span></a>
+              <ol class="toc">
+                <li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E4%B8%80"><span
+                      class="toc-text"> 题目一</span></a></li>
+                <li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E4%BA%8C"><span
+                      class="toc-text"> 题目二</span></a></li>
+                <li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E4%B8%89"><span
+                      class="toc-text"> 题目三</span></a></li>
+                <li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E5%9B%9B"><span
+                      class="toc-text"> 题目四</span></a>
+                  <ol class="toc-child">
+                    <li class="toc-item toc-level-4"><a class="toc-link" href="#41"><span class="toc-text">
+                          4.1</span></a></li>
+                    <li class="toc-item toc-level-4"><a class="toc-link" href="#42"><span class="toc-text">
+                          4.2</span></a></li>
+                    <li class="toc-item toc-level-4"><a class="toc-link" href="#43"><span class="toc-text">
+                          4.3</span></a></li>
+                  </ol>
+                </li>
+              </ol>
+            </div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/network/git/"><span
+                  class="toc-text">Git &amp; 编程基础</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/network/md/"><span
+                  class="toc-text">Markdown</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/network/algo/"><span
+                  class="toc-text">数据结构与算法</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/network/rev/"><span
+                  class="toc-text">二进制逆向</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/network/pl/"><span
+                  class="toc-text">编程语言入门</span></a></div>
+          </div>
+          <div class="widget-header cap dis-select"><span class="name">🖥️ 硬件部</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/hardware/qa/"><span
+                  class="toc-text">简单小问题</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/hardware/hardware/"><span
+                  class="toc-text">硬件部面前题</span></a></div>
+          </div>
+          <div class="widget-header cap dis-select"><span class="name">📊 办公室</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/office/misc/"><span
+                  class="toc-text">综合题</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/office/word/"><span
+                  class="toc-text">Word 题</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/office/excel/"><span
+                  class="toc-text">Excel 题</span></a></div>
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/office/ppt/"><span
+                  class="toc-text">PowerPoint 题</span></a></div>
+          </div>
+          <div class="widget-header cap dis-select"><span class="name">🎨 美工部</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/design/"><span
+                  class="toc-text">美工部面前题</span></a></div>
+          </div>
+          <div class="widget-header cap dis-select"><span class="name">📢 推广部</span></div>
+          <div class="widget-body fs14">
+            <div class="doc-tree"><a class="doc-tree-link" href="/mengxin/2025/promotion/"><span
+                  class="toc-text">推广部面前题</span></a></div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <div class="l_main">
+      <div>
+        <div class="bread-nav fs12" style="display: none;">
+          <div class="left">
+            <div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a
+                class="cap breadcrumb" id="menu" href="/wiki/">文档</a><span class="sep"></span><a class="cap breadcrumb"
+                id="proj" href="/mengxin/2025/">2025 先锋面前题</a></div>
+            <div id="post-meta"><span>发布于 <time dateTime="2025-08-21T08:51:22.945Z">2025-08-21</time>，更新于 <time
+                  dateTime="2025-08-21T08:51:22.945Z">2025-08-21</time></span></div>
+          </div>
+        </div>
+        <article class="md-text content wiki  " id="网络基础知识">
+          <h1 class="article-title"><span>网络基础知识</span></h1>
+          <div>
+            <h3 id="题目一"><a class="markdownIt-Anchor" href="#题目一"></a> 题目一</h3>
+            <p>你的同学需要进行小组讨论，有大量的素材文件需要在小范围内共享。请设计一个可行的文件共享方案。</p>
+            <h3 id="题目二"><a class="markdownIt-Anchor" href="#题目二"></a> 题目二</h3>
+            <p>你现在需要在你的电脑上进行 Web 前端开发，若你愿意，还可以尝试以任意方式在你的电脑上使用任一 Linux 发行版完成以下任务：</p>
+            <ul>
+              <li>选择并学习一个你感兴趣的前端框架</li>
+              <li>使用命令行，在所选的操作系统上安装框架所需的依赖，初始化该框架并完成一个自我介绍页面。</li>
+              <li>在本地启动开发服务器并调试，然后构建生产环境代码，简要理解二者的作用。</li>
+              <li>使用某种方式在面试时向我们展示你完成了以上步骤</li>
+            </ul>
+            <h3 id="题目三"><a class="markdownIt-Anchor" href="#题目三"></a> 题目三</h3>
+            <p>你委托侦探调查了一个神秘的组织，结果侦探被困住了，他只能通过一个奇怪的方式向你传递他听到的对话。</p>
+            <p>目标：打开<code>http://113.44.139.48:8008</code>并使用合理的方式获取到侦探传递的信息。</p>
+            <blockquote>
+              <p>本题非常简单，可以使用多种不同的方法完成哦！多多尝试会更好一些~</p>
+            </blockquote>
+            <h3 id="题目四"><a class="markdownIt-Anchor" href="#题目四"></a> 题目四</h3>
+            <p>你需要学习并使用 <mark class="tag-plugin colorful mark" color="orange">UDP</mark>、<mark
+                class="tag-plugin colorful mark" color="blue">TCP</mark>、<mark class="tag-plugin colorful mark"
+                color="green">HTTP</mark> 三种协议，编写一个客户端程序，按照特定的流程与服务器进行通信，完成一系列交互任务，取出我们留给你的一段话。</p>
+            <p>若你初次接触相关内容，观察服务器的响应内容是至关重要的，保存响应内容并且不断调试对于完成本题有很大帮助。</p>
+            <blockquote>
+              <p>如果你无法完成整道题目，不用担心，任何的探索都是有价值的，我们记录下了你发出的每一次通信内容，这都会成为你的加分点。</p>
+            </blockquote>
+            <ul>
+              <li>
+                <mark class="tag-plugin colorful mark" color="orange">UDP</mark> 服务器: 117.72.115.162:8889
+              </li>
+              <li>
+                <mark class="tag-plugin colorful mark" color="blue">TCP</mark> 服务器: 117.72.115.162:9998
+              </li>
+              <li>
+                <mark class="tag-plugin colorful mark" color="green">HTTP</mark> POST 地址: 117.72.115.162:8899/submit
+              </li>
+            </ul>
+            <h4 id="41"><a class="markdownIt-Anchor" href="#41"></a> 4.1</h4>
+            <p><strong>建立连接</strong></p>
+            <p>你需要通过 <mark class="tag-plugin colorful mark" color="orange">UDP</mark> 协议向服务器发送你的学号，获取一个会话标识符。</p>
+            <div class="tag-plugin tabs" id="tab_1">
+              <div class="nav-tabs">
+                <div class="tab active"><a href="#tab_1-1">请求格式</a></div>
+                <div class="tab"><a href="#tab_1-2">成功响应格式</a></div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab_1-1">
+                  <figure class="highlight json">
+                    <figcaption><span>请求格式</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;get_session&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;student_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2025xxxx&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab_1-2">
+                  <figure class="highlight json">
+                    <figcaption><span>成功响应格式</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;success&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;session_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;uuid字符串&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sessionid获取成功&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <h4 id="42"><a class="markdownIt-Anchor" href="#42"></a> 4.2</h4>
+            <p><strong>建立连接</strong></p>
+            <p>使用第一阶段获得的标识符，通过 <mark class="tag-plugin colorful mark" color="blue">TCP</mark> 协议与服务器建立连接并接收数据。</p>
+            <div class="tag-plugin tabs" id="tab_2">
+              <div class="nav-tabs">
+                <div class="tab active"><a href="#tab_2-1">请求格式</a></div>
+                <div class="tab"><a href="#tab_2-2">成功响应格式</a></div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab_2-1">
+                  <figure class="highlight json">
+                    <figcaption><span>请求格式</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;%mark color:blue TCP %&#125;_connect&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;session_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;从 &#123;%mark color:orange UDP %&#125; 阶段获得的 session_id&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab_2-2">
+                  <figure class="highlight json">
+                    <figcaption><span>响应格式</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;success&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123;%mark color:blue TCP %&#125;连接成功&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <p><strong>接收流式数据</strong></p>
+            <p>在 <mark class="tag-plugin colorful mark" color="blue">TCP</mark>
+              连接建立并成功响应后，服务器会<strong>立即</strong>发送多种类型的 JSON 消息，每个消息以换行符 (<code>\n</code>) 分隔。</p>
+            <p>下面给出每种请求的格式：</p>
+            <div class="tag-plugin tabs" id="tab_3">
+              <div class="nav-tabs">
+                <div class="tab active"><a href="#tab_3-1">开始</a></div>
+                <div class="tab"><a href="#tab_3-2">字符</a></div>
+                <div class="tab"><a href="#tab_3-3">结束</a></div>
+                <div class="tab"><a href="#tab_3-4">断开</a></div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane active" id="tab_3-1">
+                  <figure class="highlight json">
+                    <figcaption><span>开始</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;stream_start&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;开始流式传输&quot;</span><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab_3-2">
+                  <figure class="highlight json">
+                    <figcaption><span>字符</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;stream_char&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;char&quot;</span><span class="punctuation">:</span> <span class="string">&quot;c&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;position&quot;</span><span class="punctuation">:</span> <span class="string">&quot;0&quot;</span><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab_3-3">
+                  <figure class="highlight json">
+                    <figcaption><span>结束</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;stream_end&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;流式传输完成&quot;</span><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+                <div class="tab-pane" id="tab_3-4">
+                  <figure class="highlight json">
+                    <figcaption><span>断开</span></figcaption>
+                    <table>
+                      <tr>
+                        <td class="gutter">
+                          <pre><span class="line">1</span><br></pre>
+                        </td>
+                        <td class="code">
+                          <pre><span class="line"><span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;disconnect_request&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;断开连接确认&quot;</span><span class="punctuation">&#125;</span></span><br></pre>
+                        </td>
+                      </tr>
+                    </table>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <p>当收到断开确认请求时，你需要发送：</p>
+            <figure class="highlight json">
+              <figcaption><span>断开确认</span></figcaption>
+              <table>
+                <tr>
+                  <td class="gutter">
+                    <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                  </td>
+                  <td class="code">
+                    <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;disconnect_confirm&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;message&quot;</span><span class="punctuation">:</span> <span class="string">&quot;客户端确认断开连接&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                  </td>
+                </tr>
+              </table>
+            </figure>
+            <h4 id="43"><a class="markdownIt-Anchor" href="#43"></a> 4.3</h4>
+            <p>通过 <mark class="tag-plugin colorful mark" color="green">HTTP</mark> POST 请求向服务器确认你的完成情况。</p>
+            <figure class="highlight json">
+              <figcaption><span>请求格式</span></figcaption>
+              <table>
+                <tr>
+                  <td class="gutter">
+                    <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre>
+                  </td>
+                  <td class="code">
+                    <pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;nickname&quot;</span><span class="punctuation">:</span> <span class="string">&quot;你的昵称&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;student_id&quot;</span><span class="punctuation">:</span> <span class="string">&quot;你的学号&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre>
+                  </td>
+                </tr>
+              </table>
+            </figure>
+          </div>
+          <div class="article-footer reveal fs14"></div>
+        </article>
+        <div class="related-wrap reveal" id="read-next">
+          <section class="body">
+            <div class="item" id="prev">
+              <div class="note">回顾上一篇</div><a href="/mengxin/2025/">前言</a>
+            </div>
+            <div class="item" id="next">
+              <div class="note">接下来阅读</div><a href="/mengxin/2025/network/git/">Git &amp; 编程基础</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="page-footer reveal fs12">
+        <hr />
+        <div class="text">
+          <p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener"
+              href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+          <p>本站由 <a href="javascript:void(0);" onclick="location.href='/';">@NEUP 2025</a> 创建，使用 <a target="_blank" rel="noopener"
+              href="https://github.com/chiyuki0325/hexo-theme-stellaris">Stellaris</a> 作为主题。</p>
+          <div>由 <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> 强力驱动</div>
+        </div>
+      </footer>
+      <div class="float-panel mobile-only blur" style="display:none"><button type="button"
+          class="sidebar-toggle mobile on-click-event" id="toggle-sidebar" data-on-click="sidebar.toggle();"><svg
+            class="icon" style="width:1em;height:1em;vertical-align:middle;fill:currentColor;overflow:hidden"
+            viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301">
+            <path
+              d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z"
+              p-id="15302"></path>
+            <path
+              d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z"
+              p-id="15303"></path>
+          </svg></button></div>
+    </div>
+  </div>
+  <div class="scripts">
+    <script src="https://fastly.jsdelivr.net/npm/instantclick@3.1.0/instantclick.min.js"
+      data-no-instant="true"></script>
+    <script data-no-instant="true" type="text/javascript">InstantClick.init();</script>
+    <script type="text/javascript">
+      stellar = {
+        root: '/',
+        // 懒加载 css https://github.com/filamentgroup/loadCSS
+        loadCSS: (href, before, media, attributes) => {
+          var doc = window.document;
+          var ss = doc.createElement("link");
+          var ref;
+          if (before) {
+            ref = before;
+          } else {
+            var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+            ref = refs[refs.length - 1];
+          }
+          var sheets = doc.styleSheets;
+          if (attributes) {
+            for (var attributeName in attributes) {
+              if (attributes.hasOwnProperty(attributeName)) {
+                ss.setAttribute(attributeName, attributes[attributeName]);
+              }
+            }
+          }
+          ss.rel = "stylesheet";
+          ss.href = href;
+          ss.media = "only x";
+          function ready(cb) {
+            if (doc.body) {
+              return cb();
+            }
+            setTimeout(function () {
+              ready(cb);
+            });
+          }
+          ready(function () {
+            ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+          });
+          var onloadcssdefined = function (cb) {
+            var resolvedHref = ss.href;
+            var i = sheets.length;
+            while (i--) {
+              if (sheets[i].href === resolvedHref) {
+                return cb();
+              }
+            }
+            setTimeout(function () {
+              onloadcssdefined(cb);
+            });
+          };
+          function loadCB() {
+            if (ss.addEventListener) {
+              ss.removeEventListener("load", loadCB);
+            }
+            ss.media = media || "all";
+          }
+          if (ss.addEventListener) {
+            ss.addEventListener("load", loadCB);
+          }
+          ss.onloadcssdefined = onloadcssdefined;
+          onloadcssdefined(loadCB);
+          return ss;
+        },
+        // 从 butterfly 和 volantis 获得灵感
+        loadScript: (src, opt) => new Promise((resolve, reject) => {
+          var script = document.createElement('script');
+          script.src = src;
+          if (opt) {
+            for (let key of Object.keys(opt)) {
+              script[key] = opt[key]
+            }
+          } else {
+            // 默认异步，如果需要同步，第二个参数传入 {} 即可
+            script.async = true
+          }
+          script.onerror = reject
+          script.onload = script.onreadystatechange = function () {
+            const loadState = this.readyState
+            if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+            script.onload = script.onreadystatechange = null
+            resolve()
+          }
+          document.head.appendChild(script)
+        }),
+
+        // https://github.com/jerryc127/hexo-theme-butterfly
+        jQuery: fn => stellaris.jQuery(fn)
+      };
+      stellar.github = 'https://github.com/chiyuki0325/hexo-theme-stellaris';
+      stellar.config = {
+        date_suffix: {
+          just: '刚刚',
+          min: '分钟前',
+          hour: '小时前',
+          day: '天前',
+          month: '个月前',
+        },
+      };
+
+      stellar.plugins = Object.assign({ "jQuery": "https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js", "stellar": { "sites": "/mengxin/2025/js/plugins/sites.js", "friends": "/mengxin/2025/js/plugins/friends.js", "ghinfo": "/mengxin/2025/js/plugins/ghinfo.js", "timeline": "/mengxin/2025/js/plugins/timeline.js", "linkcard": "/mengxin/2025/js/plugins/linkcard.js", "fcircle": "/mengxin/2025/js/plugins/fcircle.js", "bvideo": "/mengxin/2025/js/plugins/bvideo.js" }, "marked": "https://fastly.jsdelivr.net/npm/marked@4.0.2/marked.min.js", "instant_click": { "js": "https://fastly.jsdelivr.net/npm/instantclick@3.1.0/instantclick.min.js" }, "lazyload": { "enabled": true, "js": "https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js", "transition": "blur" }, "swiper": { "enabled": true, "css": "https://fastly.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css", "js": "https://fastly.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" }, "fancybox": { "enabled": true, "js": "https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js", "css": "https://fastly.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css", "selector": ".swiper-slide img, .vcontent img:not(.vemoji), .tag-plugin.image img" }, "copycode": { "enabled": true, "js": "/mengxin/2025/js/plugins/copycode.js", "default_text": "复制", "success_text": "已复制" } })
+      stellar.tag_plugins = Object.assign({ "bvideo": { "enabled": true, "image_proxy": "https://stellaris-api.chyk.ink/bilibili/?url=", "video_info": "https://stellaris-api.chyk.ink/bvideo_info/" } })
+      stellar.search = Object.assign({ "service": "local_search", "js": "/mengxin/2025/js/search/local_search.js", "path": "/search.json" })
+
+      stellar.article = {
+        outdate_month: 2
+      };
+    </script>
+    <script src="/mengxin/2025/js/main.js" type="text/javascript" data-no-instant="true"></script>
+    <script type="text/javascript" src="/mengxin/2025/js/check_outdated_browser.js" data-no-instant="true"></script>
+  </div>
+</body>
+
+</html>
